@@ -6,10 +6,7 @@
     border-radius: 10px;
 
 }
-.popup__body input:focus {
-    outline: none;
 
-}
 
 
 @media screen and (max-width: 568px) {

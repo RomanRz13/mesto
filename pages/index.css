@@ -34,19 +34,10 @@
 @import url(../blocks/profile/__add-button/profile__add-button.css);
 
 @import url(../blocks/elements/elements.css);
-@import url(../blocks/elements/__foto-box/element__foto-box.css);
-@import url(../blocks/elements/__foto-text/element__foto-text.css);
-@import url(../blocks/elements/__foto-text-paragraph/element__foto-text-paragraph.css);
-@import url(../blocks/elements/__logo-like/element__logo-like.css);
+@import url(../blocks/elements/__foto-box/elements__foto-box.css);
+@import url(../blocks/elements/__foto-text/elements__foto-text.css);
+@import url(../blocks/elements/__foto-text-paragraph/elements__foto-text-paragraph.css);
+@import url(../blocks/elements/__logo-like/elements__logo-like.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__paragraph/footer__paragraph.css);
-
-
-
-
-
-
-
-
-

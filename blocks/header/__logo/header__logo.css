@@ -1,0 +1,13 @@
+.header__logo {
+    align-self: start;
+
+}
+
+@media screen and (max-width: 568px) {
+    .header__logo {
+        padding-left: 27px;
+        max-width: 103.74px;
+
+    }
+
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css" type="text/css">
+    <title>mesto</title>
+</head>
+
+<body class="page">
+    <div class="popup">
+        <div class="popup__container">
+            <div class="popup__body">
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <form action="#" class="popup__form">
+                    <input type="text" value="Жак-Ив Кусто" class="popup__input-name">
+                    <input type="text" value="Исследователь океана" class="popup__input-job">
+                    <button class="popup__save-button">Сохранить</button>
+                </form>
+
+                <div class="popup__close">
+                    <img src="./images/Close Icon.svg" class="popup__close-icon" alt="закрыть">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <header class="header">
+        <img src="./images/logo.svg" alt="лого" class="header__logo">
+    </header>
+    <main class="content page__content">
+        <section class="profile">
+            <div class="profile__container">
+                <div class="profile__info">
+                    <img src="./images/kusto.jpg" alt="фото Жак Кусто" class="profile__avatar">
+                    <div class="profile__box">
+                        <div class="profile__text">
+                            <h1 class="profile__name">Жак-Ив Кусто</h1>
+                            <button class="profile__edit-button" type="submit"><img src="./images/Vector pen.png"
+                                    alt="редактировать"></button>
+                        </div>
+                        <p class="profile__job">Исследователь океана</p>
+                    </div>
+                </div>
+                <button class="profile__add-button"><img src="./images/add button.png" alt="добавить"></button>
+            </div>
+        </section>
+        <section class="elements">
+            <figure class="element__foto-box"><img src="./images/karachaevsk.png" alt="пейзаж Карачаевск">
+                <figcaption class="element__foto-text">
+                    <p class="element__foto-text-paragraph">Карачаевск</p><img src="./images/like.svg" alt="лайк"
+                        class="element__logo-like" >
+                </figcaption>
+            </figure>
+
+            <figure class="element__foto-box"><img src="./images/ellbrus.png" alt="пейзаж гора Эльбрус">
+                <figcaption class="element__foto-text">
+                    <p class="element__foto-text-paragraph">Гора Эльбрус</p><img src="./images/like.svg" alt="лайк"
+                        class="element__logo-like" >
+                </figcaption>
+            </figure>
+
+            <figure class="element__foto-box"><img src="./images/dombai.png" alt="пейзаж Домбай">
+                <figcaption class="element__foto-text">
+                    <p class="element__foto-text-paragraph">Домбай</p><img src="./images/like.svg" alt="лайк"
+                        class="element__logo-like" >
+                </figcaption>
+            </figure>
+
+            <figure class="element__foto-box"><img src="./images/ellbrus.png" alt="пейзаж гора Эльбрус">
+                <figcaption class="element__foto-text">
+                    <p class="element__foto-text-paragraph">Гора Эльбрус</p> <img src="./images/like.svg" alt="лайк"
+                        class="element__logo-like" >
+                </figcaption>
+            </figure>
+
+            <figure class="element__foto-box"><img src="./images/dombai.png" alt="пейзаж Домбай">
+                <figcaption class="element__foto-text">
+                    <p class="element__foto-text-paragraph">Домбай</p><img src="./images/like.svg" alt="лайк"
+                        class="element__logo-like" >
+                </figcaption>
+            </figure>
+
+            <figure class="element__foto-box"><img src="./images/karachaevsk.png" alt="пейзаж Карачаевск">
+                <figcaption class="element__foto-text">
+                    <p class="element__foto-text-paragraph">Карачаево-Черкесия</p> <img src="./images/like.svg"
+                        class="element__logo-like" alt="лайк">
+                </figcaption>
+            </figure>
+
+        </section>
+    </main>
+    <footer class="footer page__footer">
+        <p class="footer__paragraph">© 2022 Mesto Russia</p>
+    </footer>
+    <script src="./JS/modal.js"></script>
+
+</body>
+
+</html>
